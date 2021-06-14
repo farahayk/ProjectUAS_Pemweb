@@ -1,6 +1,6 @@
 /**
-* Template Name: Squadfree - v4.3.0
-* Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
+* Template Name: TheEvent - v4.3.0
+* Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
@@ -68,7 +68,7 @@
     let offset = header.offsetHeight
 
     if (!header.classList.contains('header-scrolled')) {
-      offset -= 24
+      offset -= 20
     }
 
     let elementPos = select(el).offsetTop
@@ -159,66 +159,19 @@
   });
 
   /**
-   * Porfolio isotope and filter
+   * Initiate glightbox
    */
-  window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
-      });
-
-      let portfolioFilters = select('#portfolio-flters li', true);
-
-      on('click', '#portfolio-flters li', function(e) {
-        e.preventDefault();
-        portfolioFilters.forEach(function(el) {
-          el.classList.remove('filter-active');
-        });
-        this.classList.add('filter-active');
-
-        portfolioIsotope.arrange({
-          filter: this.getAttribute('data-filter')
-        });
-        portfolioIsotope.on('arrangeComplete', function() {
-          AOS.refresh()
-        });
-      }, true);
-    }
-
+  const glightbox = GLightbox({
+    selector: '.glightbox'
   });
 
   /**
-   * Initiate portfolio lightbox 
+   * Gallery Slider
    */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
-  });
-
-  /**
-   * Portfolio details slider
-   */
-  new Swiper('.portfolio-details-slider', {
+  new Swiper('.gallery-slider', {
     speed: 400,
     loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
-
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
+    centeredSlides: true,
     autoplay: {
       delay: 5000,
       disableOnInteraction: false
@@ -232,14 +185,36 @@
     breakpoints: {
       320: {
         slidesPerView: 1,
-        spaceBetween: 40
+        spaceBetween: 20
       },
-
-      1200: {
+      575: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      768: {
         slidesPerView: 3,
+        spaceBetween: 20
+      },
+      992: {
+        slidesPerView: 5,
+        spaceBetween: 20
       }
     }
   });
+
+  /**
+   * Initiate gallery lightbox 
+   */
+  const galleryLightbox = GLightbox({
+    selector: '.gallery-lightbox'
+  });
+
+  /**
+   * Buy tickets select the ticket type on click
+   */
+  on('show.bs.modal', '#buy-ticket-modal', function(event) {
+    select('#buy-ticket-modal #ticket-type').value = event.relatedTarget.getAttribute('data-ticket-type')
+  })
 
   /**
    * Animation on scroll
@@ -247,10 +222,10 @@
   window.addEventListener('load', () => {
     AOS.init({
       duration: 1000,
-      easing: "ease-in-out",
+      easing: 'ease-in-out',
       once: true,
       mirror: false
-    });
+    })
   });
 
 })()
