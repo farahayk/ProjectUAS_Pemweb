@@ -52,15 +52,15 @@
           <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
           <li><a class="nav-link scrollto" href="#speakers">Event</a></li>
           <li><a class="nav-link scrollto" href="#schedule">Jadwal</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#venue">Venue</a></li>
-          <li><a class="nav-link scrollto" href="#hotels">Hotels</a></li> -->
+          <!-- <li><a class="nav-link scrollto" href="#venue">Venue</a></li>-->
+          <li><a class="nav-link scrollto" href="#hotels">Berita</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Galeri</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Volunteer</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Relawan</a></li>
           <!-- <li><a class="nav-link scrollto" href="#supporters">Sponsors</a></li> -->
           <li class="dropdown"><a href="#"><span>Akun</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
-            <li><a href="#">Masuk</a></li>
-            <li><a href="#">Daftar</a></li>
+            <li><a href="registrasi/login.php">Masuk</a></li>
+            <li><a href="registrasi/registrasi.php">Daftar</a></li>
             <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
               <ul>
                 <li><a href="#">Deep Drop Down 1</a></li>
@@ -101,15 +101,15 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-6">
-            <h2>About Us</h2>
+            <h2>Tentang Sea You</h2>
             <p>Sea You merupakan website pelestarian laut, berbagai event penyelamatan laut dapat ditemukan disini </p>
           </div>
           <div class="col-lg-3">
-            <h3>Office</h3>
+            <h3>Kantor</h3>
             <p>Jember, Indonesia</p>
           </div>
           <div class="col-lg-3">
-            <h3>Find Us</h3>
+            <h3>Temukan Kita </h3>
             <p>@Sea_You</p>
           </div>
         </div>
@@ -120,97 +120,97 @@
     <section id="speakers">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2>Event Speakers</h2>
-          <p>Here are some of our speakers</p>
+          <h2>Event Sea You</h2>
+          <p>Event yang diadakan dalam rangka melestarikan Laut</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+              <img src="assets/img/speakers/papuma.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Brenden Legros</a></h3>
-                <p>Quas alias incidunt</p>
+                <h3><a href="speaker-details.php">Bersih-bersih Pantai Papuma</a></h3>
+                <p>27 Juni 2021</p>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a> -->
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
+              <img src="assets/img/speakers/ampat.jpg" alt="Speaker 2" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Hubert Hirthe</a></h3>
-                <p>Consequuntur odio aut</p>
+                <h3><a href="speaker-details.php">Pelestarian Coral Raja Ampat</a></h3>
+                <p>14 Juni 2021</p>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a> -->
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="assets/img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
+              <img src="assets/img/speakers/weh.jpg" alt="Speaker 3" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Cole Emmerich</a></h3>
-                <p>Fugiat laborum et</p>
+                <h3><a href="speaker-details.php">Penanaman Bakau Pulau Weh</a></h3>
+                <p>10 Juli 2021</p>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a> -->
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/speakers/4.jpg" alt="Speaker 4" class="img-fluid">
+              <img src="assets/img/speakers/benoa.jpg" alt="Speaker 4" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Jack Christiansen</a></h3>
-                <p>Debitis iure vero</p>
+                <h3><a href="speaker-details.php">Pelestarian Penyu Pantai Benoa</a></h3>
+                <p>10 Agustus 2021</p>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a> -->
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/5.jpg" alt="Speaker 5" class="img-fluid">
+              <img src="assets/img/speakers/pink.jpg" alt="Speaker 5" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Alejandrin Littel</a></h3>
-                <p>Qui molestiae natus</p>
+                <h3><a href="speaker-details.php">Pencegahan Erosi Pink Beach</a></h3>
+                <p>10 Februari 2022</p>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a> -->
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="assets/img/speakers/6.jpg" alt="Speaker 6" class="img-fluid">
+              <img src="assets/img/speakers/bajo.jpg" alt="Speaker 6" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Willow Trantow</a></h3>
-                <p>Non autem dicta</p>
+                <h3><a href="speaker-details.php">Diving Campaign Labuan Bajo</a></h3>
+                <p>10 September 2021</p>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a> -->
                 </div>
               </div>
             </div>
@@ -224,24 +224,24 @@
     <section id="schedule" class="section-with-bg">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2>Event Schedule</h2>
-          <p>Here is our event schedule</p>
+          <h2>Jadwal Event</h2>
+          <p>Berikut Jadwal Event yang Diadakan Sea You</p>
         </div>
 
         <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
           <li class="nav-item">
-            <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">Day 1</a>
+            <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">Juni</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">Day 2</a>
+            <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">Juli</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">Day 3</a>
+            <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">Agustus</a>
           </li>
         </ul>
 
-        <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius
-          necessitatibus voluptatem quis labore perspiciatis quia.</h3>
+        <!-- <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius
+          necessitatibus voluptatem quis labore perspiciatis quia.</h3> -->
 
         <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
 
@@ -249,76 +249,54 @@
           <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>09:30 AM</time></div>
+              <div class="col-md-2"><time>4 Juni  2021</time></div>
               <div class="col-md-10">
-                <h4>Registration</h4>
-                <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
+                <h4>Pelestarian Terumbu Karang</h4>
+                <p>Pulau Weh Aceh</p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-2"><time>10 Juni 2021</time></div>
               <div class="col-md-10">
-                <div class="speaker">
+                <!-- <div class="speaker">
                   <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
-                </div>
-                <h4>Keynote <span>Brenden Legros</span></h4>
-                <p>Facere provident incidunt quos voluptas.</p>
+                </div> -->
+                <h4>Penanaman Bakau dan Tumbuhan Pantai</h4>
+                <p>Pantai Watu Ulo Jember</p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>11:00 AM</time></div>
+              <div class="col-md-2"><time>13 Juni 2021</time></div>
               <div class="col-md-10">
-                <div class="speaker">
+                <!-- <div class="speaker">
                   <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
-                </div>
-                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+                </div> -->
+                <h4>Tindak Nyata Sosial</h4>
+                <p>Pantai Papuma Jember</p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>12:00 AM</time></div>
+              <div class="col-md-2"><time>17 Juni 2021</time></div>
               <div class="col-md-10">
-                <div class="speaker">
+                <!-- <div class="speaker">
                   <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
-                </div>
-                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
+                </div> -->
+                <h4>Patroli Penangkapan Ikan Ilegal</h4>
+                <p>Pantai Pancer</p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>02:00 PM</time></div>
+              <div class="col-md-2"><time>25 Juni 2021</time></div>
               <div class="col-md-10">
-                <div class="speaker">
+                <!-- <div class="speaker">
                   <img src="assets/img/speakers/4.jpg" alt="Jack Christiansen">
-                </div>
-                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-                <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>03:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="assets/img/speakers/5.jpg" alt="Alejandrin Littel">
-                </div>
-                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>04:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="assets/img/speakers/6.jpg" alt="Willow Trantow">
-                </div>
-                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+                </div> -->
+                <h4>Pelepasan Penyu</h4>
+                <p>Pantai Benoa Bali</p>
               </div>
             </div>
 
@@ -329,68 +307,46 @@
           <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-2"><time>3 Juli 2021</time></div>
               <div class="col-md-10">
-                <div class="speaker">
+                <!-- <div class="speaker">
                   <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
-                </div>
-                <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
-                <p>Facere provident incidunt quos voluptas.</p>
+                </div> -->
+                <h4>Pelestarian Terumbu Karang</h4>
+                <p>Raja Ampat Papua</p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>11:00 AM</time></div>
+              <div class="col-md-2"><time>10 Juli 2021</time></div>
               <div class="col-md-10">
-                <div class="speaker">
+                <!-- <div class="speaker">
                   <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
-                </div>
-                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+                </div> -->
+                <h4>Diving Campaign</h4>
+                <p>Labuan Bajo Lombok</p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>12:00 AM</time></div>
+              <div class="col-md-2"><time>15 Juli 2021</time></div>
               <div class="col-md-10">
-                <div class="speaker">
+                <!-- <div class="speaker">
                   <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
-                </div>
-                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
+                </div> -->
+                <h4>Penanaman Tanaman Cemara Air</h4>
+                <p>Pantai Nihiwatu Lombok</p>
               </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>02:00 PM</time></div>
               <div class="col-md-10">
-                <div class="speaker">
+                <!-- <div class="speaker">
                   <img src="assets/img/speakers/4.jpg" alt="Jack Christiansen">
-                </div>
-                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-                <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>03:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="assets/img/speakers/5.jpg" alt="Alejandrin Littel">
-                </div>
-                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>04:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="assets/img/speakers/6.jpg" alt="Willow Trantow">
-                </div>
-                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+                </div> -->
+                <h4>Pelestarian Paus dan Penyu</h4>
+                <p>Pantai Teluk Ijo</p>
               </div>
             </div>
 
@@ -401,68 +357,46 @@
           <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-2"><time>1 Agustus 2021</time></div>
               <div class="col-md-10">
-                <div class="speaker">
+                <!-- <div class="speaker">
                   <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
-                </div>
-                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+                </div> -->
+                <h4>Bersih-bersih Pantai</h4>
+                <p>Pantai Nanggelan</p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>11:00 AM</time></div>
+              <div class="col-md-2"><time>3 Agustus 2021</time></div>
               <div class="col-md-10">
-                <div class="speaker">
+                <!-- <div class="speaker">
                   <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
-                </div>
-                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
+                </div> -->
+                <h4>Happy Camp</h4>
+                <p>Pantai Wedi Ireng</p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>12:00 AM</time></div>
+              <div class="col-md-2"><time>8 Agustus 2021</time></div>
               <div class="col-md-10">
-                <div class="speaker">
+                <!-- <div class="speaker">
                   <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
-                </div>
-                <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
-                <p>Facere provident incidunt quos voluptas.</p>
+                </div> -->
+                <h4>Penyelamatan Terumbu Karang</h4>
+                <p>Pantai Ora</p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>02:00 PM</time></div>
+              <div class="col-md-2"><time>14 Agustus 2021</time></div>
               <div class="col-md-10">
-                <div class="speaker">
+                <!-- <div class="speaker">
                   <img src="assets/img/speakers/4.jpg" alt="Jack Christiansen">
-                </div>
-                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-                <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>03:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="assets/img/speakers/5.jpg" alt="Alejandrin Littel">
-                </div>
-                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>04:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="assets/img/speakers/6.jpg" alt="Willow Trantow">
-                </div>
-                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+                </div> -->
+                <h4>Penanaman Bakau</h4>
+                <p>Pantai Parangtritis</p>
               </div>
             </div>
 
@@ -475,112 +409,13 @@
 
     </section><!-- End Schedule Section -->
 
-    <!-- ======= Venue Section ======= -->
-    <!-- <section id="venue">
-
-      <div class="container-fluid" data-aos="fade-up">
-
-        <div class="section-header">
-          <h2>Event Venue</h2>
-          <p>Event venue location info and gallery</p>
-        </div>
-
-        <div class="row g-0">
-          <div class="col-lg-6 venue-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-
-          <div class="col-lg-6 venue-info">
-            <div class="row justify-content-center">
-              <div class="col-11 col-lg-8 position-relative">
-                <h3>Downtown Conference Center, New York</h3>
-                <p>Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae ipsam. Est quae sit qui voluptatem corporis velit. Qui maxime accusamus possimus. Consequatur sequi et ea suscipit enim nesciunt quia velit.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="container-fluid venue-gallery-container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row g-0">
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="assets/img/venue-gallery/1.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/venue-gallery/1.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="assets/img/venue-gallery/2.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/venue-gallery/2.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="assets/img/venue-gallery/3.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/venue-gallery/3.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="assets/img/venue-gallery/4.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/venue-gallery/4.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="assets/img/venue-gallery/5.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/venue-gallery/5.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="assets/img/venue-gallery/6.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/venue-gallery/6.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="assets/img/venue-gallery/7.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/venue-gallery/7.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="assets/img/venue-gallery/8.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/venue-gallery/8.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </section>End Venue Section -->
-
     <!-- ======= Hotels Section ======= -->
-    <!-- <section id="hotels" class="section-with-bg">
+    <section id="hotels" class="section-with-bg">
 
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2>Hotels</h2>
-          <p>Her are some nearby hotels</p>
+          <h2>Berita</h2>
+          <p>Berita Tentang Pelestarian Bumi</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -588,272 +423,82 @@
           <div class="col-lg-4 col-md-6">
             <div class="hotel">
               <div class="hotel-img">
-                <img src="assets/img/hotels/1.jpg" alt="Hotel 1" class="img-fluid">
+                <img src="assets/img/hotels/berita-1.jpg" alt="Hotel 1" class="img-fluid">
               </div>
-              <h3><a href="#">Hotel 1</a></h3>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-              </div>
-              <p>0.4 Mile from the Venue</p>
+              <h3><a href="https://www.liputan6.com/lifestyle/read/4311515/mendukung-kelestarian-biota-laut-di-jakarta-aquarium">Kelestarian Biota Laut di Jakarta Aquarium</a></h3>
+              <p>Liputan6</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="hotel">
               <div class="hotel-img">
-                <img src="assets/img/hotels/2.jpg" alt="Hotel 2" class="img-fluid">
+                <img src="assets/img/hotels/berita-2.jpg" alt="Hotel 2" class="img-fluid">
               </div>
-              <h3><a href="#">Hotel 2</a></h3>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill-half-full"></i>
-              </div>
-              <p>0.5 Mile from the Venue</p>
+              <h3><a href="https://www.kompas.com/skola/read/2021/01/25/210051269/upaya-pelestarian-lingkungan-perairan">Berbagai Upaya Pelestarian Perairan<br></a></h3>
+              <p>Kompas</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="hotel">
               <div class="hotel-img">
-                <img src="assets/img/hotels/3.jpg" alt="Hotel 3" class="img-fluid">
+                <img src="assets/img/hotels/berita-3.jpeg" alt="Hotel 3" class="img-fluid">
               </div>
-              <h3><a href="#">Hotel 3</a></h3>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-              </div>
-              <p>0.6 Mile from the Venue</p>
+              <h3><a href="https://www.cnnindonesia.com/gaya-hidup/20210405103926-286-625995/foto-menyelamatkan-hutan-bakau-lewat-dongeng-dan-boneka">Menyelamatkan Hutan Bakau Lewat Dongeng dan Boneka</a></h3>
+              <p>CNN</p>
             </div>
           </div>
 
         </div>
       </div>
 
-    </section>End Hotels Section -->
+    </section><!--End Hotels Section-->
 
     <!-- ======= Gallery Section ======= -->
     <section id="gallery">
 
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2>Gallery</h2>
-          <p>Check our gallery from the recent events</p>
+          <h2>Galeri</h2>
+          <p>Dokumentasi Event-Event Sea You</p>
         </div>
       </div>
 
       <div class="gallery-slider swiper-container">
         <div class="swiper-wrapper align-items-center">
-          <div class="swiper-slide"><a href="assets/img/gallery/1.jpg" class="gallery-lightbox"><img src="assets/img/gallery/1.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/2.jpg" class="gallery-lightbox"><img src="assets/img/gallery/2.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/3.jpg" class="gallery-lightbox"><img src="assets/img/gallery/3.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/4.jpg" class="gallery-lightbox"><img src="assets/img/gallery/4.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/5.jpg" class="gallery-lightbox"><img src="assets/img/gallery/5.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/6.jpg" class="gallery-lightbox"><img src="assets/img/gallery/6.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/7.jpg" class="gallery-lightbox"><img src="assets/img/gallery/7.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/8.jpg" class="gallery-lightbox"><img src="assets/img/gallery/8.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/weh.jpg" class="gallery-lightbox"><img src="assets/img/gallery/weh.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/benoa.jpg" class="gallery-lightbox"><img src="assets/img/gallery/benoa.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/ampat.jpg" class="gallery-lightbox"><img src="assets/img/gallery/ampat.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/pink.jpg" class="gallery-lightbox"><img src="assets/img/gallery/pink.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/papuma.jpg" class="gallery-lightbox"><img src="assets/img/gallery/papuma.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/bajo.jpg" class="gallery-lightbox"><img src="assets/img/gallery/bajo.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/sea-bg.jpg" class="gallery-lightbox"><img src="assets/img/gallery/sea-bg.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/about.jpg" class="gallery-lightbox"><img src="assets/img/gallery/about.jpg" class="img-fluid" alt=""></a></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
 
     </section><!-- End Gallery Section -->
 
-    <!-- ======= Supporters Section ======= -->
-    <!-- <section id="supporters" class="section-with-bg">
-
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Sponsors</h2>
-        </div>
-
-        <div class="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="assets/img/supporters/1.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="assets/img/supporters/2.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="assets/img/supporters/3.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="assets/img/supporters/4.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="assets/img/supporters/5.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="assets/img/supporters/6.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="assets/img/supporters/7.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="assets/img/supporters/8.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>End Sponsors Section -->
-
-    <!-- =======  F.A.Q Section ======= -->
-    <!-- <section id="faq">
-
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <h2>F.A.Q </h2>
-        </div>
-
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-9">
-
-            <ul class="faq-list">
-
-              <li>
-                <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                  </p>
-                </div>
-              </li>
-
-              <li>
-                <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                  </p>
-                </div>
-              </li>
-
-              <li>
-                <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                  </p>
-                </div>
-              </li>
-
-              <li>
-                <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                  </p>
-                </div>
-              </li>
-
-              <li>
-                <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-                  </p>
-                </div>
-              </li>
-
-              <li>
-                <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
-                  </p>
-                </div>
-              </li>
-
-            </ul>
-
-          </div>
-        </div>
-
-      </div>
-
-    </section>End  F.A.Q Section --> -->
-
-    <!-- ======= Subscribe Section ======= -->
-    <!-- <section id="subscribe">
-      <div class="container" data-aos="zoom-in">
-        <div class="section-header">
-          <h2>Newsletter</h2>
-          <p>Rerum numquam illum recusandae quia mollitia consequatur.</p>
-        </div>
-
-        <form method="POST" action="#">
-          <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-10 d-flex">
-              <input type="text" class="form-control" placeholder="Enter your Email">
-              <button type="submit" class="ms-2">Subscribe</button>
-            </div>
-          </div>
-        </form>
-
-      </div>
-    </section>End Subscribe Section -->
-
     <!-- ======= Buy Ticket Section ======= -->
     <section id="buy-tickets" class="section-with-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Buy Tickets</h2>
-          <p>Velit consequatur consequatur inventore iste fugit unde omnis eum aut.</p>
+          <h2>Donasi</h2>
+          <p>Mari Donasi untuk Kelestarian Laut</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="card mb-5 mb-lg-0">
               <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Standard Access</h5>
-                <h6 class="card-price text-center">$150</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Community Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Workshop Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>After Party</li>
-                </ul>
-                <hr>
+                <h5 class="card-title text-muted text-uppercase text-center">Pelestarian Teluk dan Pantai</h5>
+                <h6 class="card-price text-center">Rp10.000</h6>
+                <br>
                 <div class="text-center">
-                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="standard-access">Buy Now</button>
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="standard-access">Donasikan</button>
                 </div>
               </div>
             </div>
@@ -861,20 +506,11 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="card mb-5 mb-lg-0">
               <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Pro Access</h5>
-                <h6 class="card-price text-center">$250</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Community Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Workshop Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>After Party</li>
-                </ul>
-                <hr>
+                <h5 class="card-title text-muted text-uppercase text-center">Pelestarian Hewan Laut</h5>
+                <h6 class="card-price text-center">Rp15.000</h6>
+                <br>
                 <div class="text-center">
-                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="pro-access">Buy Now</button>
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="pro-access">Donasikan</button>
                 </div>
               </div>
             </div>
@@ -883,20 +519,11 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Premium Access</h5>
-                <h6 class="card-price text-center">$350</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Community Access</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Workshop Access</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>After Party</li>
-                </ul>
-                <hr>
+                <h5 class="card-title text-muted text-uppercase text-center">Pelestarian Terumbu Karang</h5>
+                <h6 class="card-price text-center">Rp20.000</h6>
+                <br>
                 <div class="text-center">
-                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="premium-access">Buy Now</button>
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="premium-access">Donasikan</button>
                 </div>
 
               </div>
@@ -911,27 +538,27 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="modal-title">Buy Tickets</h4>
+              <h4 class="modal-title">Donasi</h4>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <form method="POST" action="#">
                 <div class="form-group">
-                  <input type="text" class="form-control" name="your-name" placeholder="Your Name">
+                  <input type="text" class="form-control" name="your-name" placeholder="Nama">
                 </div>
                 <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="your-email" placeholder="Your Email">
+                  <input type="text" class="form-control" name="your-email" placeholder="Email">
                 </div>
                 <div class="form-group mt-3">
                   <select id="ticket-type" name="ticket-type" class="form-select">
-                    <option value="">-- Select Your Ticket Type --</option>
-                    <option value="standard-access">Standard Access</option>
-                    <option value="pro-access">Pro Access</option>
-                    <option value="premium-access">Premium Access</option>
+                    <option value="">-- Pilih Jenis Pembayaran --</option>
+                    <option value="standard-access">Gopay</option>
+                    <option value="pro-access">Link Aja</option>
+                    <option value="premium-access">Dana</option>
                   </select>
                 </div>
                 <div class="text-center mt-3">
-                  <button type="submit" class="btn">Buy Now</button>
+                  <button type="submit" class="btn">Donasikan</button>
                 </div>
               </form>
             </div>
@@ -947,60 +574,32 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Contact Us</h2>
-          <p>Nihil officia ut sint molestiae tenetur.</p>
-        </div>
-
-        <div class="row contact-info">
-
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="bi bi-geo-alt"></i>
-              <h3>Address</h3>
-              <address>A108 Adam Street, NY 535022, USA</address>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="bi bi-phone"></i>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="bi bi-envelope"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
-            </div>
-          </div>
-
+          <h2>Daftar Menjadi Relawan</h2>
+          <p>Jadilah bagian dari kami</p>
         </div>
 
         <div class="form">
           <form action="forms/contact.php" method="post" role="form" class="php-email-form">
             <div class="row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nama" required>
               </div>
               <div class="form-group col-md-6 mt-3 mt-md-0">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
               </div>
             </div>
             <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Event yang didaftarkan (contoh: penanaman bakau pulau weh)" required>
             </div>
             <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              <textarea class="form-control" name="message" rows="5" placeholder="Apa yang membuat kami memilihmu?" required></textarea>
             </div>
             <div class="my-3">
               <div class="loading">Loading</div>
               <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
+              <div class="sent-message">Anda sudah berhasil mendaftar, akan kami hubungi lewat email. Terima Kasih!</div>
             </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
+            <div class="text-center"><button type="submit">Daftar</button></div>
           </form>
         </div>
 
@@ -1016,40 +615,27 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <img src="assets/img/logo.png" alt="TheEvenet">
-            <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
+            <img src="assets/img/logo shell.png" alt="TheEvenet">
+            <p>Sea You membantu melestarikan keindahan alam laut Indonesia yang kaya dengan keberagamannya</p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Links</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#hero">Beranda</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#about">Tentang Kita</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#speakers">Event</a></li>
+              <!-- <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Pantai Watu Ulo Jember <br>
+              <strong>Phone:</strong> 082245000377<br>
+              <strong>Email:</strong> seayou@gmail.com<br>
             </p>
 
             <div class="social-links">
