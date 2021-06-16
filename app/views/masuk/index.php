@@ -5,12 +5,12 @@
             <div class="container">
                 <div class="signup-content">
                     <form method="POST" id="signup-form" class="signup-form">
-                        <h2 class="form-title">Login</h2>
+                        <h2 class="form-title">Masuk</h2>
                         <!-- <div class="form-group">
                             <input type="text" class="form-input" name="name" id="name" placeholder="Your Name"/>
                         </div> -->
                         <div class="form-group">
-                            <input type="email" class="form-input" name="email" id="email" placeholder="Your Email"/>
+                            <input type="email" class="form-input" name="email" id="email" placeholder="Email"/>
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-input" name="password" id="password" placeholder="Password"/>
@@ -21,14 +21,14 @@
                         </div> -->
                         <div class="form-group">
                             <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
-                            <label for="agree-term" class="label-agree-term"><span><span></span></span>Remember me</label>
+                            <label for="agree-term" class="label-agree-term"><span><span></span></span>Ingat saya</label>
                         </div>
                         <div class="form-group">
-                            <input type="submit" name="submit" id="submit" class="form-submit" value="Login"/>
+                            <input type="submit" name="submit" id="submit" class="form-submit" value="Masuk"/>
                         </div>
                     </form>
                     <p class="loginhere">
-                        Don't have an account ? <a href="#" class="loginhere-link">Signup here</a>
+                        Tidak memiliki akun? <a href="<?= BASEURL;?>/daftar" class="loginhere-link">Daftar sekarang</a>
                     </p>
                 </div>
             </div>
