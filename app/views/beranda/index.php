@@ -10,21 +10,21 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="<?= BASEURL ?>public/assets/img/favicon.png" rel="icon">
-  <link href="<?= BASEURL ?>public/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="../../../public/assets/img/favicon.png" rel="icon">
+  <link href="../../../public/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="<?= BASEURL ?>public/assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="<?= BASEURL ?>public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?= BASEURL ?>public/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="<?= BASEURL ?>public/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="<?= BASEURL ?>public/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../../../public/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../../../public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../public/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../../../public/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../../../public/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="<?= BASEURL ?>public/assets/css/style.css" rel="stylesheet">
+  <link href="../../../public/assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: TheEvent - v4.3.0
@@ -43,7 +43,7 @@
       <div id="logo" class="me-auto">
         <!-- Uncomment below if you prefer to use a text logo -->
         <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
-        <a href="index.php" class="scrollto"><img src="public/assets/img/logo shell.png" alt="" title=""></a>
+        <a href="index.php" class="scrollto"><img src="../../../public/assets/img/logo shell.png" alt="" title=""></a>
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
@@ -127,9 +127,9 @@
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/speakers/papuma.jpg" alt="Speaker 1" class="img-fluid">
+              <img src="../../../public/assets/img/speakers/papuma.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.php">Bersih-bersih Pantai Papuma</a></h3>
+                <h3><a href="../../../app/views/detail/index.php">Bersih-bersih Pantai Papuma</a></h3>
                 <p>27 Juni 2021</p>
                 <div class="social">
                   <!-- <a href=""><i class="bi bi-twitter"></i></a>
@@ -142,7 +142,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/ampat.jpg" alt="Speaker 2" class="img-fluid">
+              <img src="../../../public/assets/img/speakers/ampat.jpg" alt="Speaker 2" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.php">Pelestarian Coral Raja Ampat</a></h3>
                 <p>14 Juni 2021</p>
@@ -157,7 +157,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="assets/img/speakers/weh.jpg" alt="Speaker 3" class="img-fluid">
+              <img src="../../../public/assets/img/speakers/weh.jpg" alt="Speaker 3" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.php">Penanaman Bakau Pulau Weh</a></h3>
                 <p>10 Juli 2021</p>
@@ -172,7 +172,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/speakers/benoa.jpg" alt="Speaker 4" class="img-fluid">
+              <img src="../../../public/assets/img/speakers/benoa.jpg" alt="Speaker 4" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.php">Pelestarian Penyu Pantai Benoa</a></h3>
                 <p>10 Agustus 2021</p>
@@ -187,7 +187,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/pink.jpg" alt="Speaker 5" class="img-fluid">
+              <img src="../../../public/assets/img/speakers/pink.jpg" alt="Speaker 5" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.php">Pencegahan Erosi Pink Beach</a></h3>
                 <p>10 Februari 2022</p>
@@ -202,7 +202,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="assets/img/speakers/bajo.jpg" alt="Speaker 6" class="img-fluid">
+              <img src="../../../public/assets/img/speakers/bajo.jpg" alt="Speaker 6" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.php">Diving Campaign Labuan Bajo</a></h3>
                 <p>10 September 2021</p>
@@ -423,7 +423,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="hotel">
               <div class="hotel-img">
-                <img src="public/assets/img/hotels/berita-1.jpg" alt="Hotel 1" class="img-fluid">
+                <img src="../../../public/assets/img/hotels/berita-1.jpg" alt="Hotel 1" class="img-fluid">
               </div>
               <h3><a href="https://www.liputan6.com/lifestyle/read/4311515/mendukung-kelestarian-biota-laut-di-jakarta-aquarium">Kelestarian Biota Laut di Jakarta Aquarium</a></h3>
               <p>Liputan6</p>
@@ -433,7 +433,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="hotel">
               <div class="hotel-img">
-                <img src="public/assets/img/hotels/berita-2.jpg" alt="Hotel 2" class="img-fluid">
+                <img src="../../../public/assets/img/hotels/berita-2.jpg" alt="Hotel 2" class="img-fluid">
               </div>
               <h3><a href="https://www.kompas.com/skola/read/2021/01/25/210051269/upaya-pelestarian-lingkungan-perairan">Berbagai Upaya Pelestarian Perairan<br></a></h3>
               <p>Kompas</p>
@@ -443,7 +443,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="hotel">
               <div class="hotel-img">
-                <img src="public/assets/img/hotels/berita-3.jpeg" alt="Hotel 3" class="img-fluid">
+                <img src="../../../public/assets/img/hotels/berita-3.jpeg" alt="Hotel 3" class="img-fluid">
               </div>
               <h3><a href="https://www.cnnindonesia.com/gaya-hidup/20210405103926-286-625995/foto-menyelamatkan-hutan-bakau-lewat-dongeng-dan-boneka">Menyelamatkan Hutan Bakau Lewat Dongeng dan Boneka</a></h3>
               <p>CNN</p>
@@ -467,14 +467,14 @@
 
       <div class="gallery-slider swiper-container">
         <div class="swiper-wrapper align-items-center">
-          <div class="swiper-slide"><a href="public/assets/img/gallery/weh.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/weh.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="public/assets/img/gallery/benoa.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/benoa.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="public/assets/img/gallery/ampat.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/ampat.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="public/assets/img/gallery/pink.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/pink.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="public/assets/img/gallery/papuma.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/papuma.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="public/assets/img/gallery/bajo.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/bajo.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="public/assets/img/gallery/sea-bg.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/sea-bg.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="public/assets/img/gallery/about.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/about.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="../../../public/assets/img/gallery/weh.jpg" class="gallery-lightbox"><img src="../../../public/assets/img/gallery/weh.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="../../../public/assets/img/gallery/benoa.jpg" class="gallery-lightbox"><img src="../../../public/assets/img/gallery/benoa.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="../../../public/assets/img/gallery/ampat.jpg" class="gallery-lightbox"><img src="../../../public/assets/img/gallery/ampat.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="../../../public/assets/img/gallery/pink.jpg" class="gallery-lightbox"><img src="../../../public/assets/img/gallery/pink.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="../../../public/assets/img/gallery/papuma.jpg" class="gallery-lightbox"><img src="../../../public/assets/img/gallery/papuma.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="../../../public/assets/img/gallery/bajo.jpg" class="gallery-lightbox"><img src="../../../public/assets/img/gallery/bajo.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="../../../public/assets/img/gallery/sea-bg.jpg" class="gallery-lightbox"><img src="../../../public/assets/img/gallery/sea-bg.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="../../../public/assets/img/gallery/about.jpg" class="gallery-lightbox"><img src="../../../public/assets/img/gallery/about.jpg" class="img-fluid" alt=""></a></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -615,7 +615,7 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <img src="assets/img/logo shell.png" alt="TheEvenet">
+            <img src="../../../public/assets/img/logo shell.png" alt="TheEvenet">
             <p>Sea You membantu melestarikan keindahan alam laut Indonesia yang kaya dengan keberagamannya</p>
           </div>
 
@@ -671,14 +671,14 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="public/assets/vendor/aos/aos.js"></script>
-  <script src="public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="public/assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="public/assets/vendor/php-email-form/validate.js"></script>
-  <script src="public/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../../../public/assets/vendor/aos/aos.js"></script>
+  <script src="../../../public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../../../public/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../../../public/assets/vendor/php-email-form/validate.js"></script>
+  <script src="../../../public/assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="public/assets/js/main.js"></script>
+  <script src="../../../public/assets/js/main.js"></script>
 
 </body>
 

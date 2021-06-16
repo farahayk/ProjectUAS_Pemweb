@@ -7,10 +7,10 @@
     <title>Daftar</title>
 
     <!-- Font Icon -->
-    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="../../../public/registrasi/fonts/material-icon/css/material-design-iconic-font.min.css">
 
     <!-- Main css -->
-    <link rel="stylesheet" href="public/registrasi/css/style.css">
+    <link rel="stylesheet" href="../../../public/registrasi/css/style.css">
 </head>
 <body>
 
@@ -53,7 +53,7 @@
     </div>
 
     <!-- JS -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../../../public/registrasi/vendor/jquery/jquery.min.js"></script>
+    <script src="../../../public/registrasi/js/main.js"></script>
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>
