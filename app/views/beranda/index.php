@@ -43,7 +43,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="http://localhost/ProjectUAS_Pemweb/public/assets/img/speakers/papuma.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="../../../app/views/detail/index.php">Bersih-bersih Pantai Papuma</a></h3>
+                <h3><a href="<?= BASEURL; ?>/detail">Bersih-bersih Pantai Papuma</a></h3>
                 <p>27 Juni 2021</p>
                 <div class="social">
                   <!-- <a href=""><i class="bi bi-twitter"></i></a>

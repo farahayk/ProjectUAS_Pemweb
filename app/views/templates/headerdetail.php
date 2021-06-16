@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title><?= $data['judul']; ?></title>
+  <title>Event Detail</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -37,26 +37,25 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center ">
+  <header id="header" class="d-flex align-items-center header-inner">
     <div class="container-fluid container-xxl d-flex align-items-center">
 
       <div id="logo" class="me-auto">
         <!-- Uncomment below if you prefer to use a text logo -->
-        <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
-        <a href="<?= BASEURL; ?>/beranda" class="scrollto"><img src="<?= BASEURL; ?>/assets/img/logo shell.png" alt="" title=""></a>
+        <!-- <h1><a href="index.php">The<span>Event</span></a></h1>-->
+        <a href="<?= BASEURL; ?>" class="scrollto"><img src="<?= BASEURL; ?>/assets/img/logo shell.png" alt="" title=""></a>
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
-          <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
-          <li><a class="nav-link scrollto" href="#speakers">Event</a></li>
-          <li><a class="nav-link scrollto" href="#schedule">Jadwal</a></li>
+          <li><a class="nav-link scrollto active" href="<?= BASEURL; ?>/beranda">Beranda</a></li>
+          <li><a class="nav-link scrollto" href="<?= BASEURL; ?>/beranda/#about">Tentang</a></li>
+          <li><a class="nav-link scrollto" href="<?= BASEURL; ?>/beranda/#speakers">Event</a></li>
+          <li><a class="nav-link scrollto" href="<?= BASEURL; ?>/beranda/#schedule">Jadwal</a></li>
           <!-- <li><a class="nav-link scrollto" href="#venue">Venue</a></li>-->
-          <li><a class="nav-link scrollto" href="#hotels">Berita</a></li>
-          <li><a class="nav-link scrollto" href="#gallery">Galeri</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Relawan</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#">Akun</a></li> -->
+          <li><a class="nav-link scrollto" href="<?= BASEURL; ?>/beranda/#hotels">Berita</a></li>
+          <li><a class="nav-link scrollto" href="<?= BASEURL; ?>/beranda/#gallery"?>Galeri</a></li>
+          <li><a class="nav-link scrollto" href="<?= BASEURL; ?>/beranda/#contact">Relawan</a></li>
           <!-- <li><a class="nav-link scrollto" href="#supporters">Sponsors</a></li> -->
           <li class="dropdown"><a href="#"><span>Akun</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
@@ -84,3 +83,5 @@
 
     </div>
   </header><!-- End Header -->
+
+  <main id="main" class="main-page">
