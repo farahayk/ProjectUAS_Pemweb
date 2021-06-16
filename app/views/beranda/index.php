@@ -10,21 +10,21 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="<?= BASEURL ?>public/assets/img/favicon.png" rel="icon">
+  <link href="<?= BASEURL ?>public/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="<?= BASEURL ?>public/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="<?= BASEURL ?>public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?= BASEURL ?>public/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="<?= BASEURL ?>public/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="<?= BASEURL ?>public/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="<?= BASEURL ?>public/assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: TheEvent - v4.3.0
@@ -43,7 +43,7 @@
       <div id="logo" class="me-auto">
         <!-- Uncomment below if you prefer to use a text logo -->
         <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
-        <a href="index.php" class="scrollto"><img src="assets/img/logo shell.png" alt="" title=""></a>
+        <a href="index.php" class="scrollto"><img src="public/assets/img/logo shell.png" alt="" title=""></a>
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
@@ -59,8 +59,8 @@
           <!-- <li><a class="nav-link scrollto" href="#supporters">Sponsors</a></li> -->
           <li class="dropdown"><a href="#"><span>Akun</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
-            <li><a href="registrasi/login.php">Masuk</a></li>
-            <li><a href="registrasi/registrasi.php">Daftar</a></li>
+            <li><a href="login.php">Masuk</a></li>
+            <li><a href="registrasi.php">Daftar</a></li>
             <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
               <ul>
                 <li><a href="#">Deep Drop Down 1</a></li>
@@ -423,7 +423,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="hotel">
               <div class="hotel-img">
-                <img src="assets/img/hotels/berita-1.jpg" alt="Hotel 1" class="img-fluid">
+                <img src="public/assets/img/hotels/berita-1.jpg" alt="Hotel 1" class="img-fluid">
               </div>
               <h3><a href="https://www.liputan6.com/lifestyle/read/4311515/mendukung-kelestarian-biota-laut-di-jakarta-aquarium">Kelestarian Biota Laut di Jakarta Aquarium</a></h3>
               <p>Liputan6</p>
@@ -433,7 +433,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="hotel">
               <div class="hotel-img">
-                <img src="assets/img/hotels/berita-2.jpg" alt="Hotel 2" class="img-fluid">
+                <img src="public/assets/img/hotels/berita-2.jpg" alt="Hotel 2" class="img-fluid">
               </div>
               <h3><a href="https://www.kompas.com/skola/read/2021/01/25/210051269/upaya-pelestarian-lingkungan-perairan">Berbagai Upaya Pelestarian Perairan<br></a></h3>
               <p>Kompas</p>
@@ -443,7 +443,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="hotel">
               <div class="hotel-img">
-                <img src="assets/img/hotels/berita-3.jpeg" alt="Hotel 3" class="img-fluid">
+                <img src="public/assets/img/hotels/berita-3.jpeg" alt="Hotel 3" class="img-fluid">
               </div>
               <h3><a href="https://www.cnnindonesia.com/gaya-hidup/20210405103926-286-625995/foto-menyelamatkan-hutan-bakau-lewat-dongeng-dan-boneka">Menyelamatkan Hutan Bakau Lewat Dongeng dan Boneka</a></h3>
               <p>CNN</p>
@@ -467,14 +467,14 @@
 
       <div class="gallery-slider swiper-container">
         <div class="swiper-wrapper align-items-center">
-          <div class="swiper-slide"><a href="assets/img/gallery/weh.jpg" class="gallery-lightbox"><img src="assets/img/gallery/weh.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/benoa.jpg" class="gallery-lightbox"><img src="assets/img/gallery/benoa.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/ampat.jpg" class="gallery-lightbox"><img src="assets/img/gallery/ampat.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/pink.jpg" class="gallery-lightbox"><img src="assets/img/gallery/pink.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/papuma.jpg" class="gallery-lightbox"><img src="assets/img/gallery/papuma.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/bajo.jpg" class="gallery-lightbox"><img src="assets/img/gallery/bajo.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/sea-bg.jpg" class="gallery-lightbox"><img src="assets/img/gallery/sea-bg.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/about.jpg" class="gallery-lightbox"><img src="assets/img/gallery/about.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="public/assets/img/gallery/weh.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/weh.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="public/assets/img/gallery/benoa.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/benoa.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="public/assets/img/gallery/ampat.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/ampat.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="public/assets/img/gallery/pink.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/pink.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="public/assets/img/gallery/papuma.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/papuma.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="public/assets/img/gallery/bajo.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/bajo.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="public/assets/img/gallery/sea-bg.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/sea-bg.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="public/assets/img/gallery/about.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/about.jpg" class="img-fluid" alt=""></a></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -671,14 +671,14 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="public/assets/vendor/aos/aos.js"></script>
+  <script src="public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="public/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="public/assets/vendor/php-email-form/validate.js"></script>
+  <script src="public/assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="public/assets/js/main.js"></script>
 
 </body>
 
