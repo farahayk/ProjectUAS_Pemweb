@@ -24,8 +24,7 @@
                             <label for="agree-term" class="label-agree-term"><span><span></span></span>Ingat saya</label>
                         </div>
                         <div class="form-group">
-                            <button type="submit" name="submit" id="submit" class="form-submit"><a href="<?= BASEURL; ?>/beranda" style="color:white;text-decoration:none">Masuk</a></button>
-                            <!-- <input type="submit" name="submit" id="submit" class="form-submit" value="Masuk"/> -->
+                            <input type="submit" name="submit" id="submit" class="form-submit" value="Masuk"/>
                         </div>
                     </form>
                     <p class="loginhere">
