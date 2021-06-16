@@ -59,8 +59,8 @@
           <!-- <li><a class="nav-link scrollto" href="#supporters">Sponsors</a></li> -->
           <li class="dropdown"><a href="#"><span>Akun</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
-            <li><a href="registrasi/login.php">Masuk</a></li>
-            <li><a href="registrasi/registrasi.php">Daftar</a></li>
+            <li><a href="login.php">Masuk</a></li>
+            <li><a href="registrasi.php">Daftar</a></li>
             <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
               <ul>
                 <li><a href="#">Deep Drop Down 1</a></li>
