@@ -7,9 +7,9 @@
     <title><?= $data['judul']; ?></title>
 
     <!-- Font Icon -->
-    <link rel="stylesheet" href="http://localhost/ProjectUAS_Pemweb/public/form/fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/form/fonts/material-icon/css/material-design-iconic-font.min.css">
 
     <!-- Main css -->
-    <link rel="stylesheet" href="http://localhost/ProjectUAS_Pemweb/public/form/css/style.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/form/css/style.css">
 </head>
 <body>
