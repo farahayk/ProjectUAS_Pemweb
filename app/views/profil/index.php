@@ -15,7 +15,7 @@
 
       <div class="col-md-6">
         <div class="details">
-          <h2>Bersih-Bersih Pantai Papuma</h2>
+          <h2><?= $data=['nama']; ?></h2>
           <p>Voluptatem perferendis sed assumenda voluptatibus. Laudantium molestiae sint. Doloremque odio dolore dolore sit. Quae labore alias ea omnis ex expedita sapiente molestias atque. Optio voluptas et.</p>
 
           <p>Aboriosam inventore dolorem inventore nam est esse. Aperiam voluptatem nisi molestias laborum ut. Porro dignissimos eum. Tempore dolores minus unde est voluptatum incidunt ut aperiam.</p>
