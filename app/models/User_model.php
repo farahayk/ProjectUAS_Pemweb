@@ -1,10 +1,21 @@
 <?php
-class User_model {
-    private $nama = 'Farah Ayu K';
+/**
+ *
+ */
+class User_model
+{
+    private $table = 'user';
+    private $db;
 
-    public function getUser()
+    public function __construct()
     {
-        return $this ->nama;
+        $this->db = new Database;
+
     }
 
+    public function getAllUser()
+    {
+        $this->db->query('SELECT * FROM ' . $this->table);
+        return $this->db->resultSet();
+    }
 }
