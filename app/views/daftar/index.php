@@ -24,8 +24,7 @@
                             <label for="agree-term" class="label-agree-term"><span><span></span></span>Saya menyetujui<a href="#" class="term-service"></a></label>
                         </div>
                         <div class="form-group">
-                        <button type="submit" name="submit" id="submit" class="form-submit"><a href="<?= BASEURL; ?>/beranda" style="color:white;text-decoration:none">Daftar</a></button>
-                            <!-- <input type="submit" name="submit" id="submit" class="form-submit" value="Daftar"/> -->
+                            <input type="submit" name="submit" id="submit" class="form-submit" value="Daftar"/>
                         </div>
                     </form>
                     <p class="loginhere">
