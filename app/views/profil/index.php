@@ -9,19 +9,17 @@
 
     <div class="row">
       <div class="col-md-6">
-        <img src="<?= BASEURL;?>/assets/img/irene.png" alt="Speaker 1" class="img-fluid">
+        <img src="http://localhost/ProjectUAS_Pemweb/public/assets/img/speakers/papuma.jpg" alt="Speaker 1" class="img-fluid">
       </div>
 
       <div class="col-md-6">
-        <!-- <div class="details"> -->
-          <ul>
-            <li class="details"><?= $data['akun']['nama']; ?></li> <br><br>
-            <li class="details"><?= $data['akun']['email']; ?></li> <br><br>
-            <li class="details"><?= $data['akun']['password']; ?></li> <br><br>
-            <li class="details"><?= $data['akun']['usia']; ?></li> <br><br>
-            <li class="details"><?= $data['akun']['kota']; ?></li> <br><br>
-            <li class="details"><?= $data['akun']['pekerjaan']; ?></li> <br><br>
-          </ul>
+        <div class="details">
+          <?php foreach ($data['user'] as $user) : ?>
+          <h2><?= $user['nama'];?></h2>
+          <?php endforeach; ?>
+          <?php foreach ($data['user'] as $user) : ?>
+          <p><?= $user['email'];?></p>
+          <?php endforeach; ?>
         </div>
       </div>
 
