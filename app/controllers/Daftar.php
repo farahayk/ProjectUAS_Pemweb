@@ -13,11 +13,11 @@ class Daftar extends Controller {
     {
         if ($this->model('User_model')->daftarAkun($_POST) > 0)
         {
-            // Flasher::setFlasH('Pendaftaran', 'Berhasil', 'success');
+            Flasher::setFlasH('Pendaftaran', 'Berhasil', 'success');
             header("Location: " . BASEURL . "/beranda");
             exit;
         } else {
-            // Flasher::setFlasH('Pendaftaran', 'Gagal', 'danger');
+            Flasher::setFlasH('Pendaftaran', 'Gagal', 'danger');
             header("Location: " . BASEURL . "/daftar");
             exit;
         }

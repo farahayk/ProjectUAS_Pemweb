@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title><?= $data['judul']; ?></title>
+  <title>Detail</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -59,8 +59,8 @@
           <!-- <li><a class="nav-link scrollto" href="#supporters">Sponsors</a></li> -->
           <li class="dropdown"><a href="#"><span>Akun</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
-            <li><a href="<?= BASEURL; ?>/profil">Profil</a></li>
-            <li><a href="<?= BASEURL; ?>/#">Keluar</a></li>
+            <li><a href="<?= BASEURL; ?>/masuk">Masuk</a></li>
+            <li><a href="<?= BASEURL; ?>/daftar">Daftar</a></li>
             <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
               <ul>
                 <li><a href="#">Deep Drop Down 1</a></li>
