@@ -456,19 +456,19 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <form method="POST" action="#">
+              <form action="<?= BASEURL; ?>/beranda/donasi" method="POST">
                 <div class="form-group">
-                  <input type="text" class="form-control" name="your-name" placeholder="Nama">
+                  <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama">
                 </div>
                 <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="your-email" placeholder="Email">
+                  <input type="text" class="form-control" id="email" name="email" placeholder="Email">
                 </div>
                 <div class="form-group mt-3">
-                  <select id="ticket-type" name="ticket-type" class="form-select">
+                  <select id="pembayaran" name="pembayaran" class="form-select">
                     <option value="">-- Pilih Jenis Pembayaran --</option>
-                    <option value="standard-access">Gopay</option>
-                    <option value="pro-access">Link Aja</option>
-                    <option value="premium-access">Dana</option>
+                    <option value="Gopay">Gopay</option>
+                    <option value="Link Aja">Link Aja</option>
+                    <option value="Dana">Dana</option>
                   </select>
                 </div>
                 <div class="text-center mt-3">
@@ -493,27 +493,29 @@
         </div>
 
         <div class="form">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <form action="<?= BASEURL; ?>/beranda/relawan" method="post" role="form" class="php-email-form">
             <div class="row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Nama" required>
+                <input type="text" name="nama" class="form-control" id="nama" placeholder="Nama" required>
               </div>
               <div class="form-group col-md-6 mt-3 mt-md-0">
                 <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
               </div>
             </div>
             <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Event yang didaftarkan (contoh: penanaman bakau pulau weh)" required>
+              <input type="text" class="form-control" name="event" id="event" placeholder="Event yang didaftarkan (contoh: penanaman bakau pulau weh)" required>
             </div>
             <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" placeholder="Apa yang membuat kami memilihmu?" required></textarea>
+              <textarea class="form-control" name="alasan" id="alasan" rows="5" placeholder="Apa yang membuat kami memilihmu?" required></textarea>
             </div>
-            <div class="my-3">
+            <!-- <div class="my-3">
               <div class="loading">Loading</div>
               <div class="error-message"></div>
               <div class="sent-message">Anda sudah berhasil mendaftar, akan kami hubungi lewat email. Terima Kasih!</div>
-            </div>
-            <div class="text-center"><button type="submit">Daftar</button></div>
+            </div> -->
+            <div class="text-center mt-3">
+                  <button type="submit" class="btn">Daftar</button>
+                </div>
           </form>
         </div>
 

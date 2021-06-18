@@ -4,7 +4,7 @@
             <!-- <img src="images/signup-bg.jpg" alt=""> -->
             <div class="container">
                 <div class="signup-content">
-                    <form method="POST" id="signup-form" class="signup-form">
+                    <form action="<?= BASEURL; ?>/masuk/login" method="POST" id="signup-form" class="signup-form">
                         <h2 class="form-title">Masuk</h2>
                         <!-- <div class="form-group">
                             <input type="text" class="form-input" name="name" id="name" placeholder="Your Name"/>
@@ -24,11 +24,12 @@
                             <label for="agree-term" class="label-agree-term"><span><span></span></span>Ingat saya</label>
                         </div>
                         <div class="form-group">
+                            <!-- <button type="submit" name="submit" id="submit" class="form-submit"><a href="<?= BASEURL; ?>/beranda" style="color:white;text-decoration:none">Masuk</a></button>    -->
                             <input type="submit" name="submit" id="submit" class="form-submit" value="Masuk"/>
                         </div>
                     </form>
                     <p class="loginhere">
-                        Tidak memiliki akun? <a href="<?= BASEURL;?>/daftar" class="loginhere-link">Daftar sekarang</a>
+                        Belum memiliki akun? <a href="<?= BASEURL;?>/daftar" class="loginhere-link">Daftar sekarang</a>
                     </p>
                 </div>
             </div>
