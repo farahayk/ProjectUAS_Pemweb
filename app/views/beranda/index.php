@@ -24,7 +24,7 @@
           </div>
           <div class="col-lg-3">
             <h3>Temukan Kita </h3>
-            <p>@Sea_You</p>
+            <p>Social Media: @Sea_You</p>
           </div>
         </div>
       </div>
